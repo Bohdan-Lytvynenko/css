@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_navigation {
+    background-color: antiquewhite;
+}
+#submitBtn{
+    padding: 10px 20px;
+    background-color: violet;
+    color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#submitBtn:hover {
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+p {
+    color: aqua;
+}
+/*Simple css selectors are
+1. class
+2. id
+3. element
+4. universal selector*/
