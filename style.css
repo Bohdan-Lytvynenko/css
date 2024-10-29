@@ -19,10 +19,91 @@
 }
 
 p {
-    color: aqua;
+    color: #000;
+    margin-bottom: 20px;
 }
-/*Simple css selectors are
+/*A) Simple css selectors are
 1. class
 2. id
 3. element
 4. universal selector*/
+
+.relative_element {
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+main {
+    position: relative;
+    /* overflow: hidden; */
+}
+.absolute_element {
+    position: absolute;
+    top: 15px;
+    left: 140px;
+}
+#submitBtn {
+    margin-left: 10px;
+}
+.red_cube {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.yellow_cube {
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.green_cube {
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 3;
+}
+.blue_cube {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 4;
+}
+.sticky_element {
+    position: sticky;
+    top: 300px;
+    left: 0;
+    background-color: orange;
+    padding: 10px;
+    border: 2px solid orangered;
+}
+/* .subtext {
+    padding-bottom: 2500px;
+} */
+.sticky_element2 {
+    position: sticky;
+    top: 344px;
+    left: 0;
+    background-color: rgb(135, 109, 63);
+    padding: 10px;
+    border: 2px solid rgb(172, 93, 64);
+}
+.upper_sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+   
+}
